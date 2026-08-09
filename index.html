@@ -1,111 +1,202 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
+
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahmed | Computer Science Student</title>
+
+    <title>Ahmed Saegh | Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
+    <!-- Navigation -->
+    <nav class="navbar">
 
-    <h1>👋 أهلاً، أنا أحمد</h1>
+        <a href="#" class="logo">Ahmed<span>.</span></a>
 
-    <p>طالب علوم حاسب | Front-End Developer</p>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
 
-    <a href="#about" class="btn">ابدأ الجولة</a>
+        <button id="languageBtn">العربية</button>
 
-</header>
-
-
-<section id="about">
-
-    <h2>🙋‍♂️ من أنا</h2>
-
-    <p>
-        أنا أحمد، طالب علوم حاسب وأسعى إلى تعلم تطوير الويب
-        باستخدام HTML و CSS و JavaScript بالإضافة إلى Git و GitHub.
-        هدفي هو بناء مشاريع احترافية واكتساب الخبرة العملية.
-    </p>
-
-</section>
+    </nav>
 
 
+    <!-- Hero Section -->
+    <section id="home" class="hero">
 
-<section id="skills">
+        <div class="hero-content">
 
-    <h2>💻 المهارات</h2>
+     <div class="profile-photo">
+    <img src="profile.jpg" alt="Ahmed Saegh">
+</div>  
+    <p class="welcome">HELLO, I'M</p>
 
-    <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-        <li>Git & GitHub</li>
-        <li>VS Code</li>
-    </ul>
+            <h1>Ahmed Saegh</h1>
 
-</section>
+            <h2>
+                Computer Science Student
+                <span>&</span>
+                Future AI Developer
+            </h2>
+
+            <p class="hero-description">
+                I build modern websites and explore the world
+                of Artificial Intelligence, programming and technology.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn primary">
+                    View Projects
+                </a>
+
+                <a href="#contact" class="btn secondary">
+                    Contact Me
+                </a>
+
+            </div>
+
+        </div>
 
 
+        <!-- Profile Image -->
+        <div class="hero-image">
 
-<section id="projects">
+            <div class="image-glow"></div>
 
-    <h2>📂 مشاريعي</h2>
+            <div class="profile-frame">
+                <div class="profile-placeholder">
+                    YOUR PHOTO
+                </div>
+            </div>
 
-    <div>
+        </div>
 
-        <h3>مشروعي الأول</h3>
+    </section>
+
+
+    <!-- About -->
+    <section id="about" class="section">
+
+        <p class="section-label">ABOUT ME</p>
+
+        <h2>Building. Learning. Creating.</h2>
 
         <p>
-            أول مشروع قمت ببنائه ونشره باستخدام GitHub Pages.
+            I'm a Computer Science student passionate about
+            programming, Artificial Intelligence and building
+            useful digital products.
         </p>
 
-        <button onclick="welcome()" class="btn">
-            تجربة المشروع
-        </button>
-
-    </div>
-
-</section>
+    </section>
 
 
+    <!-- Skills -->
+    <section id="skills" class="section">
 
-<section id="contact">
+        <p class="section-label">MY SKILLS</p>
 
-    <h2>📞 تواصل معي</h2>
+        <h2>Technologies I Work With</h2>
 
-    <p>GitHub</p>
+        <div class="skills-grid">
 
-    <a
-        href="https://github.com/saygha20-gif"
-        target="_blank"
-        class="btn">
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">Python</div>
+            <div class="skill-card">GitHub</div>
+            <div class="skill-card">AI</div>
 
-        زيارة حساب GitHub
+        </div>
 
-    </a>
-
-</section>
-
-
-
-<footer>
-
-    <p>
-
-        © 2026 Ahmed
-        <br>
-        Computer Science Student
-
-    </p>
-
-</footer>
+    </section>
 
 
-<script src="script.js"></script>
+    <!-- Projects -->
+    <section id="projects" class="section">
+
+        <p class="section-label">MY PROJECTS</p>
+
+        <h2>Things I'm Building</h2>
+
+        <div class="projects-grid">
+
+            <article class="project-card">
+
+                <span>01</span>
+
+                <h3>AutoMind AI</h3>
+
+                <p>
+                    An AI-powered platform for comparing
+                    cars and helping users make smarter decisions.
+                </p>
+
+                <a href="#">Coming Soon →</a>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <span>02</span>
+
+                <h3>My Portfolio</h3>
+
+                <p>
+                    My personal portfolio website built
+                    with modern web technologies.
+                </p>
+
+                <a href="#">Current Project →</a>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+
+        <p class="section-label">CONTACT</p>
+
+        <h2>Let's Build Something Great.</h2>
+
+        <p>
+            I'm always interested in learning,
+            creating and working on new ideas.
+        </p>
+
+        <a href="mailto:your@email.com" class="btn primary">
+            Get In Touch
+        </a>
+
+    </section>
+
+
+    <footer>
+
+        <p>
+            © 2026 Ahmed Saegh. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
